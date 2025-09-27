@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace PR4
 {
-    internal class Circle
+    public class Circle
     {
+        public double CalculateArea(double radius)
+        {
+            return Math.PI * radius * radius;
+        }
     }
 }
